@@ -14,7 +14,7 @@ Twitter-clone uygulaması içerisinde, login aksiyonu için birkaç geliştirme 
 * Giriş işlemi için localStorage içerisindeki isLoggedIn verisini true yapmak ve user bilgilerini yine localStorage içerisine kaydetmek gerekmektedir.
 * LocalStorage kullanımı ile alakalı örnek, proje içerisinde mevcuttur. isLoggedIn değerini başlangıçta false yapmak için kullanılmıştır.
 * Giriş sonrası localStorage içindeki isLoggedIn verisi true olduğu için home sayfasına yönlendirme yapılacaktır.
-* Tweet atma aksiyonu için derste oluşturduğumuz tweetData.json içerisindeki 100 adet veri hali hazırda okunup state'e yazılmakta ve Tweet componentine prop olarak gönderilerek DOM'a aktarılmaktadır. Yeni tweet'in json dosyası içerisinde değişiklik yapması  <ins>beklenmemektedir.</ins> Sadece yeni tweet'i state içerisindeki array'in ilk elemanı olarak atamanız gerekmektedir.
+* Index atma aksiyonu için derste oluşturduğumuz tweetData.json içerisindeki 100 adet veri hali hazırda okunup state'e yazılmakta ve Index componentine prop olarak gönderilerek DOM'a aktarılmaktadır. Yeni tweet'in json dosyası içerisinde değişiklik yapması  <ins>beklenmemektedir.</ins> Sadece yeni tweet'i state içerisindeki array'in ilk elemanı olarak atamanız gerekmektedir.
 * Javascript unshift, yani bir array'in en önüne eleman ekleyen method'un kullanım detaylarına ulaşmak için [buradaki](https://www.w3schools.com/jsref/jsref_unshift.asp) kaynaktan faydalanabilirsiniz.
 * Son olarak; yeni tweet'ler giriş yapan kullanıcının bilgileri ile görüntülenmelidir.
 
